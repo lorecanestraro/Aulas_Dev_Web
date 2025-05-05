@@ -1,11 +1,18 @@
+html{
+    font-size: 62.5%;
+}
 body{
-    background-color:darkcyan
+    /* background-color:darkcyan */
+    background-image: url(imagens/fundo2.avif);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 h1{
     /* background-color: blue; */
     color:aquamarine;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: lighter;
     width: 45%;
@@ -19,15 +26,16 @@ h2{
     /* background-color: blue; */
     color:aquamarine;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: lighter;
     margin-left: 35px;
+    
 }
 h3{
     color:aquamarine;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: lighter;
     margin-left: 38px;
@@ -36,12 +44,14 @@ h3{
 p{
     color: aliceblue;
     margin-left: 38px;
+    font-size: 1.5rem;
    
 }
 
 #p1{
     color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
     /* background-color: black; */
 }
 
@@ -50,18 +60,21 @@ p{
     text-align: justify;
     text-indent: 2%;
     width: 60%;
+    font-size: 1.5rem;
 }
 
 ul li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aliceblue;
     margin-left: 40px;
+    font-size: 1.5rem;
 }
 
 ol li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aliceblue;
     margin-left: 40px;
+    font-size: 1.5rem;
 }
 
 a:link{
@@ -75,4 +88,11 @@ a:hover{
 }
 a:active{
     background-color:blueviolet
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    float: left;
+    margin-bottom: 10px;
 }
