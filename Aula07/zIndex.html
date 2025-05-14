@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{
+            border: 3px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: lightslategrey;
+            font-size: 20px;
+            width: 60%;
+        }
+        .div2.grupo2{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: aliceblue;
+        }
+        .div2.grupo1{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: aliceblue;
+        }
+        .grupo1{
+            z-index: 1;
+        }
+        .grupo2{
+            z-index: 2;
+        }
+        .div3.grupo1{
+            position: relative;
+            z-index: 4;
+            background-color: lightcoral;
+        }
+        .div4.grupo1{
+            position: relative;
+            z-index: 3;
+            background-color: rgb(213, 235, 15);
+            bottom: 30px;
+            left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1 grupo1">div1 grupo1
+        <div class="div2 grupo1">div2 grupo2
+            <div class="div3 grupo1">div3 grupo3</div>
+            <div class="div4 grupo1">div4 grupo4</div>
+    </div>
+
+    <div class="div1 grupo2">div1 grupo2
+        <div class="div2 grupo2">div2 grupo2
+            <div class="div3 grupo2">div3 grupo2</div>
+            <div class="div4 grupo2">div4 grupo2</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Introdução ao CSS</title>
+    <style>
+        .paragrafos{
+            background-color: black;
+            color:antiquewhite;
+            font-size: 25pt;
+        }
+        p{
+            background-color: blue;
+            color:antiquewhite;
+            font-size: 25pt;
+        }
+        /*mantém as propriedades de p e sobrepoe as diferentes*/
+        #paragrafo_especial{
+            background-color: blueviolet;
+            color: brown;
+            font-weight: bold;
+        }
+
+        #paragrafo_teste{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 28 pt;
+            font-style: italic;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: underline;
+            text-indent: 0%;
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+    <!--In line-->
+    <p style="color:aqua; font-size: 35pt;">Texto</p>
+    
+
+    <p class="paragrafos">Meu primeiro parágrafo</p>
+    <p id="paragrafo_teste">Meu segundo parágrafo</p>
+    <p class="paragrafos">Meu tereiro parágrafo</p>
+    <p id="paragrafo_especial">Meu quarto parágrafo</p>
+    
+</body>
+</html>

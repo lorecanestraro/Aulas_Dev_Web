@@ -1,0 +1,407 @@
+body {
+    background-color: rgba(238, 233, 233, 0.527);
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+header {
+    background-color: white;
+    width: 90%;
+    margin: 12px auto 0 auto;
+    border-radius: 12px;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+  
+  
+.devlinks {
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+.devlinks-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+}
+  
+.links {
+    display: flex;
+    align-items: center;
+    gap: 6px; 
+    padding: 0 12px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(238, 234, 245);
+    color: rgb(95, 37, 202);
+    font-weight: 550;
+    font-size: 0.90em;
+}
+  
+.link-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+}
+  
+.profile {
+    font-weight: 550;
+    color: rgb(134, 133, 131);
+    font-size: 0.90em;
+}
+
+.perfil-logo {
+        width: 25px;
+        height: 22px;
+        margin-right: 5px;
+}
+  
+.preview {
+    border: 1px solid blueviolet;
+    background-color: transparent;
+    color: blueviolet;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 550;
+    font-size: 0.90em;
+    
+}
+
+.preview:hover {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.celular{
+    width: 35%;
+    height: 700px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.console{
+    width: 65%;
+    height: 700px;
+    margin-right: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.cell{
+    width: 55%;
+    height: 70%;
+    margin: 80px auto;
+    border: 2px solid rgb(146, 145, 145);
+    border-radius: 35px;
+}
+
+.tela{
+    width: 95%;
+    height: 95%;
+    margin: 7px auto;
+    border: 2px solid rgb(146, 145, 145);
+    border-radius: 35px;
+}
+
+.tela-content{
+    display: flex;
+    flex-direction:column;
+
+}
+
+.tela-content-circulo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgb(212, 212, 212);
+    margin: 30px auto;
+    
+}
+
+.tela-content-retangulo1{
+    width: 65%;
+    height: 15px;
+    background-color: rgb(212, 212, 212);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.tela-content-retangulo2{
+    width: 35%;
+    height: 10px;
+    background-color: rgb(212, 212, 212);
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.github-container {
+    display: flex;
+    align-items: center;
+}
+
+.github-logo {
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.tela-content-github{
+    width: 90%;
+    height: 35px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    color: white;
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+
+}
+
+.tela-content-github span{
+    margin-left: 8px;
+    
+}
+
+.youtube-container {
+    display: flex;
+    align-items: center;
+}
+
+.youtube-logo {
+    width: 15px;
+    height: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+
+
+.tela-content-youtube{
+    width: 90%;
+    height: 35px;
+    background-color: red;
+    margin: 5px auto;
+    border-radius: 8px;
+    color: white;
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+}
+
+.tela-content-youtube span{
+    margin-left: 8px;
+    
+}
+
+.linkedin-container {
+    display: flex;
+    align-items: center;
+}
+
+.linkedin-logo {
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.tela-content-linkedin{
+    width: 90%;
+    height: 35px;
+    background-color: rgb(13, 93, 212);
+    margin: 5px auto;
+    border-radius: 8px;
+    color: white;
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+}
+
+.tela-content-linkedin span{
+    margin-left: 8px;
+    
+}
+
+.tela-content-retangulo6e7{
+    width: 90%;
+    height: 35px;
+    background-color: rgb(212, 212, 212);;
+    margin: 5px auto;
+    border-radius: 8px;
+}
+
+
+
+.console h2{
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.console p{
+    margin-left: 40px;
+    color: rgb(134, 133, 131);
+}
+
+.new-link {
+    border: 1px solid blueviolet;
+    width: 90%;
+    height: 30px;
+    margin: 40px auto;
+    background-color: transparent;
+    color: blueviolet;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 0.90em;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.new-link:hover {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+} 
+
+.scroll{
+    overflow-y: scroll;
+    height: 400px;
+    scrollbar-width: none;
+
+}
+
+.link1{
+    width: 90%;
+    height: 225px;
+    background-color: rgba(238, 233, 233, 0.527);
+    margin-left: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.link1-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.p-link{
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-weight: 550;
+
+}
+
+.remove{
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.link1-header-plataformElink{
+    margin-top: 5px;
+
+    font-size: 0.7em;
+}
+
+.plataforma{
+    width: 90%;
+    height: 40px;
+    border-radius: 7px;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid rgb(161, 157, 157);
+}
+
+
+
+.botao-salvar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 38px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.botao-salvar-texto {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 550;
+    font-size: 0.90em;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+fieldset{
+    border: none;
+}
+
+
+
+
+
+
+  
